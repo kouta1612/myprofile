@@ -2,6 +2,15 @@ ul {
   list-style: none;
 }
 
+@media(max-width: 575px) {
+  .favorite li {
+    font-size: 1.5rem;
+  }
+  .skill li {
+    font-size: 1.5rem;
+  }
+}
+
 .top {
   background-image: url(img/earth.jpg);
   background-size: cover;
